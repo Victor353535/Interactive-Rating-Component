@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive rating component</title>
+</head>
+
+<body>
+  <!-- Rating state start -->
+
+  <header class="rating-state" id="rating-state">
+
+    <main>
+      <div class="star-icon-container">
+        <img class="star-icon" src="images/icon-star.svg" alt="star">
+      </div>
+      <div>
+        <h2>How did we do?</h2>
+      </div>
+      <div>
+        <p>Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+      </div>
+    </main>
+
+    <section class="rate-numbers">
+      <div class="number" tabindex="1" id="one">1</div>
+      <div class="number" tabindex="1" id="two">2</div>
+      <div class="number" tabindex="1" id="three">3</div>
+      <div class="number" tabindex="1" id="four">4</div>
+      <div class="number" tabindex="1" id="five">5</div>
+      <!-- <div class="number" tabindex="1" id="number">1</div>
+      <div class="number" tabindex="1" id="number">2</div>
+      <div class="number" tabindex="1" id="number">3</div>
+      <div class="number" tabindex="1" id="number">4</div>
+      <div class="number" tabindex="1" id="number">5</div> -->
+    </section>
+
+    <button class="submit" id="submit">Submit</button>
+
+  </header>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <header class="thank-you-state" id="thank-you-state">
+    <img src="images/thank-you.svg" alt="thank-you illustration">
+    <p class="selection" id="number-selection"></p>
+    <h2>Thank you!</h2>
+    <p class="appreciation-text">We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+  </header>
+
+  <!-- Thank you state end -->
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
