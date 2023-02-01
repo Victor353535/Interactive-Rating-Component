@@ -12,15 +12,15 @@ let rateNumber = 0;
 
 numbers.forEach((button) => {
     button.addEventListener('click', (e) => {
-        rateNumber = e.target.textContent
-        numberSelection.innerHTML = `You selected ${rateNumber} out of 5`
+        rateNumber = e.target.textContent;
+        numberSelection.innerHTML = `You selected ${rateNumber} out of 5`;
     });
 });
 
 submit.addEventListener('click', (e) => {
     e.preventDefault();
     if (rateNumber !== 0) {
-        card1.style.display = 'none'
-        card2.style.display = 'block'
+        card1.style.display = 'none';
+        card2.style.display = 'block';
     }
 });
